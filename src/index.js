@@ -6,9 +6,9 @@ const port = 3001
 app.use(express.json())
 
 const products = [
-  { id: 1, name: 'Wireless Mouse', price: 29.99, stock: 120 },
-  { id: 2, name: 'Mechanical Keyboard', price: 89.99, stock: 60 },
-  { id: 3, name: 'USB-C Hub', price: 39.99, stock: 75 }
+  { id: 1, name: 'Wireless Mouse', price: 29.99, stock: 120, category: 'Accessories' },
+  { id: 2, name: 'Mechanical Keyboard', price: 89.99, stock: 60, category: 'Keyboards' },
+  { id: 3, name: 'USB-C Hub', price: 39.99, stock: 75, category: 'Adapters' }
 ]
 
 app.get('/', (req, res) => {
