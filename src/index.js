@@ -14,7 +14,8 @@ const products = [
 app.get('/', (req, res) => {
   res.json({
     service: 'product-service',
-    status: 'running'
+    status: 'running',
+    version: 'v1.0.1'
   })
 })
 
