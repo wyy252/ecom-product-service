@@ -6,3 +6,7 @@ REST API service for product catalog data.
 
 - Node.js
 - Express
+
+## Version
+
+Current release candidate: v1.0.0
