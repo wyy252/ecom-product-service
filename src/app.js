@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.json({
     service: 'product-service',
     status: 'running',
-    version: 'v1.0.1'
+    version: 'v1.0.2'
   })
 })
 
