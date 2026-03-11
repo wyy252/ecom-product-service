@@ -8,3 +8,5 @@ REST API service for product catalog data.
 - Express
 
 ## version
+
+release/v1.0.2
